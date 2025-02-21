@@ -875,6 +875,11 @@
 
             // Start auto-rotation
             autoRotateCarousel();
+
+            //open menu event
+            document.querySelector('.elementor-menu-toggle').addEventListener('click', function() {
+                this.classList.toggle('elementor-active');
+            });
         </script>
         <script src="scripts/elementor-frontend.js" id="elementor-frontend-js"></script>
         <script data-cfasync="false" src="scripts/frontend.min.js" id="wpr-addons-js-js"></script>
